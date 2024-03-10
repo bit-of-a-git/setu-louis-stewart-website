@@ -1,0 +1,79 @@
+@import url("grid.css");
+@import url("image.css");
+@import url("nav.css");
+
+* {
+	font-family: "Noto Music", sans-serif;
+  line-height: 2;
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+header {
+  background-color: #213555;
+  grid-column: 2 / span 3;
+  display: flex;
+  height: 140px;
+}
+
+header h1 {
+	font-size: 40px;
+	color: #F5F5F5;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: 0vw;
+	padding-right: 2vw;
+}
+
+footer {
+	background-color: #213555;
+	color: #F5F5F5;
+	font-family: "Noto Music", sans-serif;
+  grid-column: 2 / span 3;
+	text-align: center;
+	margin-top: auto;
+}
+
+main {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	align-self: start;
+}
+
+.album-left {
+	float: left;
+	margin: 25px;
+}
+
+.album-centre {
+	float:none;
+	margin: 25px;
+}
+
+.album-right {
+	float: right;
+	margin: 25px;
+}
+
+.videos {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.videos iframe {
+	margin: 25px;
+}
+
+ul {
+  line-height: 2.5;
+}
+
+.item {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 20px;
+}

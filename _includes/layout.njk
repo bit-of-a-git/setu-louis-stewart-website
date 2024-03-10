@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Louis Stewart - Irish Jazz Great</title>
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Music&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="container">
+      {% include "header.njk" %}
+        {{ content | safe }}
+      {% include "footer.njk" %}
+    </div>
+  </body>
+</html>
