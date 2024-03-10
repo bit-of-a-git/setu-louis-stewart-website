@@ -31,7 +31,7 @@ This site has been built with the static site generator [Eleventy](https://www.1
 
 ### Layouts
 
-Layouts are contained in the **_includes** folder.
+Layouts are contained in the **/_includes** folder.
 
 ### CSS
 
@@ -52,3 +52,7 @@ W3Schools articles on CSS Image Galleries and Navbars were used.
 
 - [https://www.w3schools.com/css/css_image_gallery.asp](https://www.w3schools.com/css/css_image_gallery.asp)
 - [https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp)
+
+Text for the bio section was taken from the Irish Times obituary.
+
+- [https://www.irishtimes.com/life-and-style/people/louis-stewart-legendary-jazz-man-known-by-all-as-louis-1.2770943](https://www.irishtimes.com/life-and-style/people/louis-stewart-legendary-jazz-man-known-by-all-as-louis-1.2770943)
